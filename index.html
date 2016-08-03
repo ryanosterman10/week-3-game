@@ -1,9 +1,81 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Hangman!</title>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <title>Hangman!</title>	
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/cyborg/bootstrap.min.css" rel="stylesheet" integrity="sha384-uSbimwRPo7PKyTL6azsx1CcBce/X9Qg+wX1MAjNV1gAkSXYveZbZeMMyJghdsSol" crossorigin="anonymous">  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
 
-</body>
+  <body>
+    
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Ryan Osterman</a>
+        </div>
+        <div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://en.wikipedia.org/wiki/Hangman_(game)">Hangman Rules</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!--  Content container -->
+
+    <div class="container">  
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="page-header text-center">
+            <h2 class="well">Come on down to Southpark... Hangman</h2>       
+          </div>
+        </div>
+      </div>
+
+<!-- Area for hangman game -->
+
+      <div id="game-area" class="row">
+
+        <div id="left-side" class="col-md-4">
+          <div id="answer-image"><img src="http://south-park.net/media/uploads/South%20Park%20Characters%20dropped%20by%20fans.png"></div>         
+        </div>
+
+        <div id="right-side" class="col-md-8 text-center">
+          <h4 id="rules">Press any key to get started!</h4>
+          <br>
+          <h5 id="wins">Wins: <span id="winCount"></span></h5>
+          <br>
+          <h4>Current Word</h4>
+          <br>
+          <h4 id="randomWord"></h4>
+          <br>
+          <div id="guesses">
+            <h5>Number of guesses remaining: <span id="guessCount"></span></h5>
+          </div>
+          <br>
+          <h4>Letters Already Guessed</h4>
+          <div id="lettersGuessed"></div>
+        </div>
+
+
+      </div> <!-- game-area-div -->
+
+
+    </div> <!--container-div-->
+
+<!-- Footer/rate -->
+
+      <nav class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <p class="navbar-text pull-left">&copy;Copyright 2016 Ryan Osterman</p>
+            <a href="#" class="navbar-btn btn-default btn pull-right">Rate</a>
+        </div>
+      </nav>
+
+  </body>
 </html>
+
+
