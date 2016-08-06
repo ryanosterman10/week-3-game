@@ -91,161 +91,83 @@ main.setUnderline();
 
 // Functions for updating letters
 
-$(function(){
-	$("#a").click(function(event){
-		event.preventDefault();
+	$("#a").click(function(){
 		main.updateLetter("a");
 	});
-});
-$(function(){
-	$("#b").click(function(event){
-		event.preventDefault();
+	$("#b").click(function(){
 		main.updateLetter("b");
 	});
-});
-$(function(){
-	$("#c").click(function(event){
-		event.preventDefault();
+	$("#c").click(function(){
 		main.updateLetter("c");
 	});
-});
-$(function(){
-	$("#d").click(function(event){
-		event.preventDefault();
+	$("#d").click(function(){
 		main.updateLetter("d");
 	});
-});
-$(function(){
-	$("#e").click(function(event){
-		event.preventDefault();
+	$("#e").click(function(){
 		main.updateLetter("e");
 	});
-});
-$(function(){
-	$("#f").click(function(event){
-		event.preventDefault();
+	$("#f").click(function(){
 		main.updateLetter("f");
 	});
-});
-$(function(){
-	$("#g").click(function(event){
-		event.preventDefault();
+	$("#g").click(function(){
 		main.updateLetter("g");
 	});
-});
-$(function(){
-	$("#h").click(function(event){
-		event.preventDefault();
+	$("#h").click(function(){
 		main.updateLetter("h");
 	});
-});
-$(function(){
-	$("#i").click(function(event){
-		event.preventDefault();
+	$("#i").click(function(){
 		main.updateLetter("i");
 	});
-});
-$(function(){
-	$("#j").click(function(event){
-		event.preventDefault();
+	$("#j").click(function(){
 		main.updateLetter("j");
 	});
-});
-$(function(){
-	$("#k").click(function(event){
-		event.preventDefault();
+	$("#k").click(function(){
 		main.updateLetter("k");
 	});
-});
-$(function(){
-	$("#l").click(function(event){
-		event.preventDefault();
+	$("#l").click(function(){
 		main.updateLetter("l");
 	});
-});
-$(function(){
-	$("#m").click(function(event){
-		event.preventDefault();
+	$("#m").click(function(){
 		main.updateLetter("m");
 	});
-});
-$(function(){
-	$("#n").click(function(event){
-		event.preventDefault();
+	$("#n").click(function(){
 		main.updateLetter("n");
 	});
-});
-$(function(){
-	$("#o").click(function(event){
-		event.preventDefault();
+	$("#o").click(function(){
 		main.updateLetter("o");
 	});
-});
-$(function(){
-	$("#p").click(function(event){
-		event.preventDefault();
+	$("#p").click(function(){
 		main.updateLetter("p");
 	});
-});
-$(function(){
-	$("#q").click(function(event){
-		event.preventDefault();
+	$("#q").click(function(){
 		main.updateLetter("q");
 	});
-});
-$(function(){
-	$("#r").click(function(event){
-		event.preventDefault();
+	$("#r").click(function(){
 		main.updateLetter("r");
 	});
-});
-$(function(){
-	$("#s").click(function(event){
-		event.preventDefault();
+	$("#s").click(function(){
 		main.updateLetter("s");
 	});
-});
-$(function(){
-	$("#t").click(function(event){
-		event.preventDefault();
+	$("#t").click(function(){
 		main.updateLetter("t");
 	});
-});
-$(function(){
-	$("#u").click(function(event){
-		event.preventDefault();
+	$("#u").click(function(){
 		main.updateLetter("u");
 	});
-});
-$(function(){
-	$("#v").click(function(event){
-		event.preventDefault();
+	$("#v").click(function(){
 		main.updateLetter("v");
 	});
-});
-$(function(){
-	$("#w").click(function(event){
-		event.preventDefault();
+	$("#w").click(function(){
 		main.updateLetter("w");
 	});
-});
-$(function(){
-	$("#x").click(function(event){
-		event.preventDefault();
+	$("#x").click(function(){
 		main.updateLetter("x");
 	});
-});
-$(function(){
-	$("#y").click(function(event){
-		event.preventDefault();
+	$("#y").click(function(){
 		main.updateLetter("y");
 	});
-});
-$(function(){
-	$("#z").click(function(event){
-		event.preventDefault();
+	$("#z").click(function(){
 		main.updateLetter("z");
 	});
-});
 
 
