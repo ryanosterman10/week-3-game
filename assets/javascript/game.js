@@ -23,10 +23,11 @@ main = {};
 main.wordArray = [];
 main.underlineArray = [];
 
-main.guessesLeft = 7;
+main.wins = 0;
+main.guessesLeft = 5;
 main.numInWordList = words.length;
 
-main.word = "test";
+main.word = "";
 main.wordUnderline = "";
 
 
@@ -69,18 +70,26 @@ main.updateLetter = function(letter){
 
 	if(main.word1 == main.word2){
 		alert("You Won! Loading a new word...");
+		main.wins++;
+		document.getElementById("winCount").innerHTML = main.wins;
+		// main.pullWord();
+		// main.setUnderline();
 		window.location.reload();
 	}
 
 	if(main.guessesLeft < 1){
 		document.getElementById("WORD").innerHTML == main.word1;
-		alert("You are out of guesses! Please try again");
+		alert("You are out of guesses! The character was: " + main.word);
 		window.location.reload();
 	}
 }
 
+// Gets word and sets the number of underlines
+
 main.pullWord();
 main.setUnderline();
+
+// Functions for updating letters
 
 $(function(){
 	$("#a").click(function(event){
